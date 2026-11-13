@@ -55,8 +55,9 @@ If the agent successfully creates and executes the script, your environment is 1
 🛠️ نحوه تنظیم در Cline:
 در تنظیمات افزونه Cline، بخش API Provider را روی حالت OpenAI Compatible قرار دهید.
 آدرس Base URL را برابر با این مقدار قرار دهید:
-text
+---
    http://127.0.0.1:11434/v1
+---
    
 در کادر API Key یک مقدار دلخواه (مثل ollama) وارد کنید.
 در بخش Model ID نام مدل خود (مثلاً qwen3.5:4b) را بنویسید.

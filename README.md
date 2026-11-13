@@ -1,5 +1,8 @@
 # local-llm-cline-setup
 Fix “Cannot convert argument to a ByteString” error in Cline/VS Code when using Ollama locally with fast models (e.g. Qwen 3.5 / 2.5)
+# local-llm-cline-setup
+Fix “Cannot convert argument to a ByteString” error in Cline/VS Code when using Ollama locally with fast models (e.g. Qwen 3.5 / 2.5)
+
 # 🚀 Fixing Cline & Ollama ByteString Error (Local AI Coding Setup)
 
 A step-by-step guide to resolve the fatal **`TypeError: Cannot convert argument to a ByteString because the character at index X has a value of ... which is greater than 255`** error when using **Cline** (VS Code) with local **Ollama** models.
@@ -41,9 +44,12 @@ Tested and verified on mid-range GPUs (e.g., **NVIDIA GTX 1660 Ti 6GB VRAM**):
 To confirm your agent can execute tools and edit files seamlessly, run this prompt inside Cline:
 ```text
 Create a test file named `test_agent.py` in the root workspace that defines an `add(a, b)` function, runs sample assertions, and execute it using Python.
+```
+
 If the agent successfully creates and executes the script, your environment is 100% operational!
 
-🇮🇷 راهنمای فارسی / Persian Guide
+---
+## 💻  🇮🇷 راهنمای فارسی / Persian Guide
 برای حل خطای مشهور و آزاردهنده‌ی ByteString هنگام اتصال افزونه Cline (در وی‌اسکد) به Ollama لوکال:
 
 🛠️ نحوه تنظیم در Cline:

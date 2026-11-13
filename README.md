@@ -42,7 +42,7 @@ Tested and verified on mid-range GPUs (e.g., **NVIDIA GTX 1660 Ti 6GB VRAM**):
 
 ## 🧪 Verification Test
 To confirm your agent can execute tools and edit files seamlessly, run this prompt inside Cline:
-```text
+```
 Create a test file named `test_agent.py` in the root workspace that defines an `add(a, b)` function, runs sample assertions, and execute it using Python.
 ```
 
@@ -50,7 +50,7 @@ If the agent successfully creates and executes the script, your environment is 1
 
 ---
 ## 💻  🇮🇷 راهنمای فارسی / Persian Guide
-برای حل خطای مشهور و آزاردهنده‌ی ByteString هنگام اتصال افزونه Cline (در وی‌اسکد) به Ollama لوکال:
+برای حل خطای مشهور و آزاردهنده‌ی ByteString هنگام اتصال افزونه Cline در (VS Code) به Ollama لوکال:
 
 🛠️ نحوه تنظیم در Cline:
 در تنظیمات افزونه Cline، بخش API Provider را روی حالت OpenAI Compatible قرار دهید.
